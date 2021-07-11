@@ -1,0 +1,87 @@
+ // Core
+
+@import "my-project/custom/functions";
+@import "my-project/bootstrap/functions";
+
+@import "my-project/custom/variables";
+@import "my-project/bootstrap/variables";
+
+@import "my-project/custom/mixins";
+@import "my-project/bootstrap/mixins";
+
+ // Bootstrap components
+
+@import "my-project/bootstrap/root";
+@import "my-project/bootstrap/reboot";
+@import "my-project/bootstrap/type";
+@import "my-project/bootstrap/images";
+@import "my-project/bootstrap/code";
+@import "my-project/bootstrap/grid";
+@import "my-project/bootstrap/tables";
+@import "my-project/bootstrap/forms";
+@import "my-project/bootstrap/buttons";
+@import "my-project/bootstrap/transitions";
+@import "my-project/bootstrap/dropdown";
+@import "my-project/bootstrap/button-group";
+@import "my-project/bootstrap/input-group";
+@import "my-project/bootstrap/custom-forms";
+@import "my-project/bootstrap/nav";
+@import "my-project/bootstrap/navbar";
+@import "my-project/bootstrap/card";
+@import "my-project/bootstrap/breadcrumb";
+@import "my-project/bootstrap/pagination";
+@import "my-project/bootstrap/badge";
+@import "my-project/bootstrap/jumbotron";
+@import "my-project/bootstrap/alert";
+@import "my-project/bootstrap/progress";
+@import "my-project/bootstrap/media";
+@import "my-project/bootstrap/list-group";
+@import "my-project/bootstrap/close";
+@import "my-project/bootstrap/modal";
+@import "my-project/bootstrap/tooltip";
+@import "my-project/bootstrap/popover";
+@import "my-project/bootstrap/carousel";
+@import "my-project/bootstrap/utilities";
+@import "my-project/bootstrap/print";
+
+ // Custom components
+
+ @import "my-project/custom/alerts.scss";
+ @import "my-project/custom/buttons.scss";
+ @import "my-project/custom/dropdown.scss";
+ @import "my-project/custom/footer.scss";
+ @import "my-project/custom/forms.scss";
+ @import "my-project/custom/images.scss";
+ @import "my-project/custom/modal.scss";
+ @import "my-project/custom/navbar.scss";
+ @import "my-project/custom/type.scss";
+ @import "my-project/custom/tables";
+ @import "my-project/custom/checkboxes-radio";
+ @import "my-project/custom/fixed-plugin";
+ @import "my-project/custom/sidebar-and-main-panel.scss";
+ @import "my-project/custom/misc.scss";
+ @import "my-project/custom/rtl.scss";
+ @import "my-project/custom/input-group.scss";
+
+
+ // Vendor / Plugins
+
+@import "my-project/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "my-project/custom/vendor/plugin-animate-bootstrap-notify.scss";
+
+// light mode
+
+@import "my-project/custom/white-content.scss";
+
+// Cards
+
+@import 'my-project/custom/card';
+@import "my-project/custom/cards/card-chart";
+@import "my-project/custom/cards/card-map";
+@import "my-project/custom/cards/card-user";
+@import "my-project/custom/cards/card-task";
+@import "my-project/custom/cards/card-plain";
+
+// Angular Differences
+
+@import "my-project/angular-differences/angular-differences"
